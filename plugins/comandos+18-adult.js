@@ -44,27 +44,27 @@ if (command == 'pornorgia' || command == 'nsfworgy') {
 await conn.sendFile(m.chat, nsfw('nsfworgy'), null, contenido, null, null, { viewOnce: true }, m)
 }
 if (command == 'pornotetas' || command == 'nsfwboobs') {
-let resError = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/tetas.json`)).data   
+let resError = (await axios.get(`https://raw.githubusercontent.com/kitty-bb/Bot-Kitty/master/src/JSON/tetas.json`)).data   
 let res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/boobs?apikey=fg-dylux`).data
 if (res == '' || !res || res == null) res = await resError[Math.floor(resError.length * Math.random())]  
 await conn.sendFile(m.chat, res, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, null, null, {viewOnce: true}, m)}
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18Porn(), ` *_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, res, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [`🥵 ${lenguajeGB.lenguaje() == 'es' ? 'porno tetas 3' : 'nsfw boobs 3'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'pornotetas3' : 'nsfwboobs3'}`]], m, frep)}
   
 if (command == 'pornobooty' || command == 'nsfwbooty') {
-let resError = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/booty.json`)).data   
+let resError = (await axios.get(`https://raw.githubusercontent.com/kitty-bb/Bot-Kitty/master/src/JSON/booty.json`)).data   
 let res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/ass?apikey=fg-dylux`).data
 if (res == '' || !res || res == null) res = await resError[Math.floor(resError.length * Math.random())]  
 await conn.sendFile(m.chat, res, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, null, null, {viewOnce: true}, m)}
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18Porn(), ` *_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, res, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [lenguajeGB.lenguaje() == 'es' ? '🔞 ver lista porno 🔞'.toUpperCase() : '🔞 list horny🔞 '.toUpperCase(), lenguajeGB.lenguaje() == 'es' ? usedPrefix + 'listaporno' : usedPrefix + 'listhorny']], m, frep)}
   
 if (command == 'pornoecchi' || command == 'nsfwecchi') {
-let res = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/ecchi.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/kitty-bb/Bot-Kitty/master/src/JSON/ecchi.json`)).data  
 let enlace = await res[Math.floor(res.length * Math.random())]
 await conn.sendFile(m.chat, enlace, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, null, null, {viewOnce: true}, m)}
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18Porn(), ` *_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [lenguajeGB.lenguaje() == 'es' ? '🔞 ver lista porno 🔞'.toUpperCase() : '🔞 list horny🔞 '.toUpperCase(), lenguajeGB.lenguaje() == 'es' ? usedPrefix + 'listaporno' : usedPrefix + 'listhorny']], m, frep)}
   
 if (command == 'pornofurro' || command == 'nsfwfurry') {
-let res = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/furro.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/kitty-bb/Bot-Kitty/master/src/JSON/furro.json`)).data  
 let enlace = await res[Math.floor(res.length * Math.random())]
 await conn.sendFile(m.chat, enlace, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, null, null, {viewOnce: true}, m)}
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18Porn(), ` *_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [`🥵 ${lenguajeGB.lenguaje() == 'es' ? 'porno furro 2' : 'nsfw furry 2'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'pornofurro2' : 'nsfwfurry2'}`]], m, frep)}
@@ -77,33 +77,33 @@ await conn.sendFile(m.chat, res, null, `${lenguajeGB['smsCont18Porn']()}\n${leng
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18Porn(), ` *_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [lenguajeGB.lenguaje() == 'es' ? '🔞 ver lista porno 🔞'.toUpperCase() : '🔞 list horny🔞 '.toUpperCase(), lenguajeGB.lenguaje() == 'es' ? usedPrefix + 'listaporno' : usedPrefix + 'listhorny']], m, frep)}
   
 if (command == 'pornolesbiana' || command == 'nsfwlesbian') {
-let resError = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/imagenlesbians.json`)).data   
+let resError = (await axios.get(`https://raw.githubusercontent.com/kitty-bb/Bot-Kitty/master/src/JSON/imagenlesbians.json`)).data   
 let res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/lesbian?apikey=fg-dylux`).data
 if (res == '' || !res || res == null) res = await resError[Math.floor(resError.length * Math.random())]  
 await conn.sendFile(m.chat, res, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, null, null, {viewOnce: true}, m)}
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18Porn(), ` *_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, res, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [`🥵 ${lenguajeGB.lenguaje() == 'es' ? 'porno chica' : 'nsfws girl'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'pornochica' : 'nsfwsgirl'}`]], m, frep)} 
   
 if (command == 'pornobragas' || command == 'nsfwpanties') {
-let res = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/panties.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/kitty-bb/Bot-Kitty/master/src/JSON/panties.json`)).data  
 let enlace = await res[Math.floor(res.length * Math.random())]
 await conn.sendFile(m.chat, enlace, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, null, null, {viewOnce: true}, m)}
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18Porn(), ` *_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [`🥵 ${lenguajeGB.lenguaje() == 'es' ? 'porno chica 2' : 'nsfws girl 2'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'pornochica2' : 'nsfwsgirl2'}`]], m, frep)}
   
 if (command == 'pornopene' || command == 'nsfwpenis') {
-let resError = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/pene.json`)).data   
+let resError = (await axios.get(`https://raw.githubusercontent.com/kitty-bb/Bot-Kitty/master/src/JSON/pene.json`)).data   
 let res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/penis?apikey=fg-dylux`).data
 if (res == '' || !res || res == null) res = await resError[Math.floor(resError.length * Math.random())]  
 await conn.sendFile(m.chat, res, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, null, null, {viewOnce: true}, m)}
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18Porn(), ` *_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, res, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [lenguajeGB.lenguaje() == 'es' ? '🔞 ver lista porno 🔞'.toUpperCase() : '🔞 list horny🔞 '.toUpperCase(), lenguajeGB.lenguaje() == 'es' ? usedPrefix + 'listaporno' : usedPrefix + 'listhorny']], m, frep)}
   
 if (command == 'porno' || command == 'porn') {
-let res = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/porno.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/kitty-bb/Bot-Kitty/master/src/JSON/porno.json`)).data  
 let enlace = await res[Math.floor(res.length * Math.random())]
 await conn.sendFile(m.chat, res, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, null, null, {viewOnce: true}, m)}
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18Porn(), ` *_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [`🥵 ${lenguajeGB.lenguaje() == 'es' ? 'porno 4k' : 'nsfws 4k'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'porno4k' : 'porn4k'}`]], m, frep)}
   
 if (command == 'pornorandom' || command == 'pornrandom') {
-let rawjsonn = ['https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/tetas.json', 'https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/booty.json', 'https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/imagenlesbians.json', 'https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/panties.json', 'https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/porno.json'] 
+let rawjsonn = ['https://raw.githubusercontent.com/kitty-bb/Bot-Kitty/master/src/JSON/tetas.json', 'https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/booty.json', 'https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/imagenlesbians.json', 'https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/panties.json', 'https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/porno.json'] 
 let rawjson = await rawjsonn[Math.floor(rawjsonn.length * Math.random())]  
 let res = (await axios.get(rawjson)).data  
 let enlace = await res[Math.floor(res.length * Math.random())]
@@ -111,7 +111,7 @@ await conn.sendFile(m.chat, enlace, null, `${lenguajeGB['smsCont18Porn']()}\n${l
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18Porn(), ` *_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [lenguajeGB.lenguaje() == 'es' ? '🔞 ver lista porno 🔞'.toUpperCase() : '🔞 list horny🔞 '.toUpperCase(), lenguajeGB.lenguaje() == 'es' ? usedPrefix + 'listaporno' : usedPrefix + 'listhorny']], m, frep)}
   
 if (command == 'pornopechos' || command == 'nsfwbreasts') {
-let res = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/pechos.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/kitty-bb/Bot-Kitty/master/src/JSON/pechos.json`)).data  
 let enlace = await res[Math.floor(res.length * Math.random())]
 await conn.sendFile(m.chat, enlace, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, null, null, {viewOnce: true}, m)}
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18Porn(), ` *_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [`🥵 ${lenguajeGB.lenguaje() == 'es' ? 'porno muslo' : 'nsfw hthigh'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'pornomuslo' : 'nsfwhthigh'}`]], m, frep)}
@@ -140,7 +140,7 @@ await conn.sendFile(m.chat, null, null, `${lenguajeGB['smsCont18Porn']()}\n${len
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18PornP(), `*_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, null, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [`🥵 ${lenguajeGB.lenguaje() == 'es' ? 'porno yaoi 3' : 'nsfw yaoi 3'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'pornoyaoi3' : 'nsfwyaoi3'}`]], fkontak, m)}}
   
 if (command == 'pornoyuri' || command == 'nsfwyuri') { 
-let res = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/src/JSON/yuri.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/kitty-bb/Bot-Kitty/master/src/JSON/yuri.json`)).data  
 let enlace = await res[Math.floor(res.length * Math.random())]  
 await conn.sendFile(m.chat, enlace, null, `${lenguajeGB['smsCont18Porn']()}\n${lenguajeGB['smsBotonM7']()} » ${user.premiumTime > 0 ? '✅' : '❌'}`, null, null, {viewOnce: true}, m)}
 //await conn.sendButton(m.chat, lenguajeGB.smsCont18Porn(), ` *_${lenguajeGB['smsBotonM7']()}_* » ${user.premiumTime > 0 ? '✅' : '❌'}\n` + wm + ` : *${command[0].toUpperCase() + command.substring(1)}*`, enlace, [[lenguajeGB.smsSig(), `${usedPrefix + command}`], [`🥵 ${lenguajeGB.lenguaje() == 'es' ? 'porno yuri 2' : 'nsfw yuri 2'} 🥵`.toUpperCase(), `${usedPrefix}${lenguajeGB.lenguaje() == 'es' ? 'pornoyuri2' : 'nsfwyuri2'}`]], m, frep)}
